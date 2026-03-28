@@ -1,0 +1,598 @@
+{
+  "survey_draft": {
+    "title": "오디오 플랫폼 사용 이해를 위한 조사 - 초안",
+    "description": "",
+    "welcome_title": "안녕하세요 인터뷰에 참여해주셔서 감사합니다",
+    "welcome_message": "오늘 인터뷰는 30~40분 정도 진행될 예정입니다",
+    "goal": "오디오 플랫폼(음악·팟캐스트·오디오북 등)을 쓰는 사람들의 일상 속 사용 맥락, 선택 이유, 만족·불만을 이해한다",
+    "target_audience": "오디오 스트리밍·팟캐스트 등을 주 1회 이상 이용하는 성인",
+    "quota": 20,
+    "user_groups": [],
+    "user_inputs": [
+      {
+        "id": "178072a2-2d3f-4505-86e0-052e82ad2246",
+        "readable_id": "user_input_1",
+        "label": "이름을 적어주세요"
+      }
+    ],
+    "screener_questions": [],
+    "interview_opening": "안녕하세요 반갑습니다 :) 저는 오늘 인터뷰를 진행하게 된 AI 인터뷰어 프로비라고 합니다.\n오늘 저와 편하게 대화 나눠주시면 됩니다. 정답이나 오답은 없으며, 본인의 경험과 생각을 있는 그대로 공유 해주시면 됩니다.\n\n준비 되셨으면, \"준비 되었어요\" 라고 말씀하시고, 입력 버튼이 활성화 되면 눌러주시면 됩니다",
+    "interview_chapters": [
+      {
+        "id": "75225e99-9b07-495d-9a72-3d18d77616ee",
+        "readable_id": "chapter_1",
+        "title": "기본 행태 파악",
+        "topics": [
+          {
+            "id": "e52f4d75-b118-4e0c-9145-d3b9e9214e73",
+            "readable_id": "topic_1_1",
+            "title": "오디오 사용 전반",
+            "questions": [
+              {
+                "id": "2ff7856e-cc8e-476a-aecd-29b5da993851",
+                "readable_id": "question_1_1_1",
+                "content": "평소에 오디오로 무엇을 가장 자주 들으시나요? 예를 들어 음악 스트리밍, 팟캐스트, 오디오북, 라디오 앱 등 편하게 말씀해 주세요.",
+                "question_type": "open_text",
+                "options": null,
+                "rating_min": null,
+                "rating_max": null,
+                "probing_guide": null,
+                "probing_plan": {
+                  "root_note": "",
+                  "root_checklist": [
+                    {
+                      "id": "8dd0e0fe-6144-4c20-8817-1bb46f3077e8",
+                      "text": "주로 쓰는 앱·서비스 이름(복수 가능)",
+                      "position": 0
+                    },
+                    {
+                      "id": "0f35a685-af58-4b1c-901c-c4197770a9be",
+                      "text": "하루에 대략 몇 분~몇 시간 정도 듣는지, 또는 주 몇 회인지",
+                      "position": 1
+                    },
+                    {
+                      "id": "3adbaa34-cde8-438f-aab8-1a0265f2f1fa",
+                      "text": "유료 구독 여부와 대략적인 요금 인식",
+                      "position": 2
+                    },
+                    {
+                      "id": "983f2b6e-c9d7-499f-b36a-821ac5af63d9",
+                      "text": "영상·텍스트와 비교해 오디오를 고르는 대표 상황이 있는지",
+                      "position": 3
+                    }
+                  ],
+                  "branches": []
+                },
+                "response_type": "episode",
+                "duration_sec": 30,
+                "media": []
+              },
+              {
+                "id": "8819296f-2578-4a10-a2e2-9faac23c24a8",
+                "readable_id": "question_1_1_2",
+                "content": "그 오디오를 주로 듣는 시점이나 장소는 어떻게 되나요? 이동 중, 집, 업무 중, 취침 전 등 떠오르는 대로 말씀해 주세요.",
+                "question_type": "open_text",
+                "options": null,
+                "rating_min": null,
+                "rating_max": null,
+                "probing_guide": null,
+                "probing_plan": {
+                  "root_note": "",
+                  "root_checklist": [
+                    {
+                      "id": "7b328cbc-3305-4dcd-a036-c83eca3cba18",
+                      "text": "가장 흔한 '한 장면' 하나를 시간대·동선으로 특정했는지",
+                      "position": 0
+                    },
+                    {
+                      "id": "4081f4f7-a695-42b1-9207-6fecd7a7a4c0",
+                      "text": "그때 함께 하는 활동(운전, 집안일, 운동 등)",
+                      "position": 1
+                    },
+                    {
+                      "id": "d196cea4-56ae-45ae-bcee-b93e723b4cb1",
+                      "text": "이어폰·스피커·차량 등 기기 사용",
+                      "position": 2
+                    }
+                  ],
+                  "branches": []
+                },
+                "response_type": "episode",
+                "duration_sec": 30,
+                "media": []
+              }
+            ]
+          },
+          {
+            "id": "3d21e23f-d8b8-43bf-9d21-a12cc95bacbe",
+            "readable_id": "topic_1_2",
+            "title": "앱·콘텐츠 탐색",
+            "questions": [
+              {
+                "id": "39a9781f-0acb-4a97-9329-22bfa6f44d49",
+                "readable_id": "question_1_2_1",
+                "content": "새로 들을 만한 콘텐츠나 채널은 주로 어떻게 찾으시나요?",
+                "question_type": "open_text",
+                "options": null,
+                "rating_min": null,
+                "rating_max": null,
+                "probing_guide": null,
+                "probing_plan": {
+                  "root_note": "",
+                  "root_checklist": [
+                    {
+                      "id": "9098e66e-5ee9-42de-8036-d048a2ec909e",
+                      "text": "앱 내 추천·검색·구독·알림·SNS·지인 중 어떤 경로가 중요한지",
+                      "position": 0
+                    },
+                    {
+                      "id": "0d62429b-a32c-4f75-b5e9-b365d2176cf3",
+                      "text": "추천이 빗나갔을 때의 대응(스킵, 설정, 이탈 등) 경험",
+                      "position": 1
+                    }
+                  ],
+                  "branches": []
+                },
+                "response_type": "episode",
+                "duration_sec": 30,
+                "media": []
+              }
+            ]
+          },
+          {
+            "id": "b053b4e4-0dab-407c-9ed0-daa52b6eebdb",
+            "readable_id": "topic_1_3",
+            "title": "정리·리캡",
+            "questions": [
+              {
+                "id": "cb953411-9d8b-4e89-a004-f9114e93ee30",
+                "readable_id": "question_1_3_1",
+                "content": "답변 감사합니다. 지금까지 말씀해 주신 내용을 한 번 정리 차원에서, '주로 쓰는 앱·주로 듣는 콘텐츠 유형·가장 흔한 듣기 상황'을 한 줄로 요약해 말씀해 주시겠어요?",
+                "question_type": "open_text",
+                "options": null,
+                "rating_min": null,
+                "rating_max": null,
+                "probing_guide": null,
+                "probing_plan": null,
+                "response_type": "episode",
+                "duration_sec": 30,
+                "media": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "3537651f-ad8f-4dcd-84fc-6aa2e2413270",
+        "readable_id": "chapter_2",
+        "title": "대표 듣기 세션",
+        "topics": [
+          {
+            "id": "a6316911-53a0-4b34-bdfd-16c9cc437a92",
+            "readable_id": "topic_2_1",
+            "title": "한 세션 깊이 들어가기",
+            "questions": [
+              {
+                "id": "69a2e445-4a8e-4459-80c6-64c37ae73f35",
+                "readable_id": "question_2_1_1",
+                "content": "방금 말씀하신 것 중에서, 가장 최근에 기억에 남는 '한 번의 듣기'를 떠올려 주세요. 그때는 어떤 앱에서 무엇을 재생하셨나요?",
+                "question_type": "open_text",
+                "options": null,
+                "rating_min": null,
+                "rating_max": null,
+                "probing_guide": null,
+                "probing_plan": {
+                  "root_note": "",
+                  "root_checklist": [
+                    {
+                      "id": "f4e2c2dd-c169-49e0-aecd-2a9775639c4e",
+                      "text": "재생 전 탐색·선택 과정이 시간순으로 두 단계 이상 드러나는지",
+                      "position": 0
+                    },
+                    {
+                      "id": "3b2486ec-05a6-4d21-b9a2-d8ca7715c5a0",
+                      "text": "배속·건너뛰기·목록 편집 등 조작 행동",
+                      "position": 1
+                    }
+                  ],
+                  "branches": []
+                },
+                "response_type": "episode",
+                "duration_sec": 30,
+                "media": []
+              },
+              {
+                "id": "4efaff69-1764-4859-a0f7-8aabac11da95",
+                "readable_id": "question_2_1_2",
+                "content": "그 세션에서 오디오에 바랐던 것은 배경 소음, 정보 습득, 기분 전환, 수면 유도 등 중 무엇에 가까웠나요?",
+                "question_type": "open_text",
+                "options": null,
+                "rating_min": null,
+                "rating_max": null,
+                "probing_guide": null,
+                "probing_plan": {
+                  "root_note": "",
+                  "root_checklist": [
+                    {
+                      "id": "7de6cdbb-7ace-470b-8e62-e9d223a94c46",
+                      "text": "멀티태스킹 여부와 그에 맞는 기대가 짝지어 설명되었는지",
+                      "position": 0
+                    }
+                  ],
+                  "branches": []
+                },
+                "response_type": "episode",
+                "duration_sec": 30,
+                "media": []
+              },
+              {
+                "id": "1923551b-f9f3-419a-a25a-aa082592db6c",
+                "readable_id": "question_2_1_3",
+                "content": "데이터·Wi-Fi·오프라인 저장 중 어떤 방식으로 들었는지, 그때 불편한 점은 있었나요?",
+                "question_type": "open_text",
+                "options": null,
+                "rating_min": null,
+                "rating_max": null,
+                "probing_guide": null,
+                "probing_plan": {
+                  "root_note": "",
+                  "root_checklist": [
+                    {
+                      "id": "88914bd0-e19c-41b1-af2f-d5a88233a759",
+                      "text": "통신 품질·다운로드·동기화 이슈가 있었다면 구체적 상황",
+                      "position": 0
+                    }
+                  ],
+                  "branches": []
+                },
+                "response_type": "episode",
+                "duration_sec": 30,
+                "media": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "3f9f4373-40ac-49b7-9564-56b0cf9f6c33",
+        "readable_id": "chapter_3",
+        "title": "가치·구독·추천",
+        "topics": [
+          {
+            "id": "e01b8cba-0582-4c56-81ec-a02483177416",
+            "readable_id": "topic_3_1",
+            "title": "기대와 실제",
+            "questions": [
+              {
+                "id": "abacfc42-ce31-49f2-ac48-ad4c4793d71e",
+                "readable_id": "question_3_1_1",
+                "content": "현재 쓰는 유료·무료 서비스에 대해, 처음 가입하거나 쓰기 시작할 때 기대했던 점이 있었다면 무엇이었나요?",
+                "question_type": "open_text",
+                "options": null,
+                "rating_min": null,
+                "rating_max": null,
+                "probing_guide": null,
+                "probing_plan": {
+                  "root_note": "",
+                  "root_checklist": [
+                    {
+                      "id": "6de204ea-c907-4555-93c8-be0076720cc6",
+                      "text": "그 기대가 어디서 형성되었는지(광고, 지인, 독점 콘텐츠 등)",
+                      "position": 0
+                    },
+                    {
+                      "id": "03fdf416-0fbd-4c98-afba-75c711591cde",
+                      "text": "지금 사용해 보니 그 기대가 충족되었는지",
+                      "position": 1
+                    }
+                  ],
+                  "branches": []
+                },
+                "response_type": "episode",
+                "duration_sec": 30,
+                "media": []
+              },
+              {
+                "id": "49760605-c833-4215-b4e9-34aaf002af70",
+                "readable_id": "question_3_1_2",
+                "content": "실제로 써 보시니, 기대와 다른 점이 있었나요? 있다면 어떤 점이었나요?",
+                "question_type": "open_text",
+                "options": null,
+                "rating_min": null,
+                "rating_max": null,
+                "probing_guide": null,
+                "probing_plan": {
+                  "root_note": "",
+                  "root_checklist": [],
+                  "branches": [
+                    {
+                      "id": "8320d02a-cbf1-4648-bb43-5e0a7aa2e4ca",
+                      "if": "충족되었다면",
+                      "note": "",
+                      "position": 0,
+                      "checklist": [
+                        {
+                          "id": "50ed5cc0-798a-4843-a17e-422a1e479d91",
+                          "text": "구체적으로 어떤 포인트가 기대를 충족시켰는지",
+                          "position": 0
+                        },
+                        {
+                          "id": "38f5d4aa-fb78-46f9-9767-80e24a7f9c10",
+                          "text": "그 경험이 있기 전과 후로 행동이 바뀐 점이 있는지",
+                          "position": 1
+                        }
+                      ],
+                      "branches": []
+                    },
+                    {
+                      "id": "fceaa0b6-2776-4fc0-bcab-7c5da8134834",
+                      "if": "충족되지 않았다면",
+                      "note": "",
+                      "position": 1,
+                      "checklist": [
+                        {
+                          "id": "37540c16-1298-4bb0-99de-fe644ed424d7",
+                          "text": "왜 충족되지 않았다고 느꼈는지",
+                          "position": 0
+                        },
+                        {
+                          "id": "9bf2862e-b7f9-48e5-8ba5-a8f03923b5af",
+                          "text": "그래서 해지·병행 앱·설정 변경 등 어떤 행동을 했는지",
+                          "position": 1
+                        }
+                      ],
+                      "branches": []
+                    }
+                  ]
+                },
+                "response_type": "episode",
+                "duration_sec": 30,
+                "media": []
+              }
+            ]
+          },
+          {
+            "id": "7a755515-062e-4a27-90da-6bdd7b50205c",
+            "readable_id": "topic_3_2",
+            "title": "추천 의향",
+            "questions": [
+              {
+                "id": "89d7bc21-7f15-40a2-9991-7da443ce8957",
+                "readable_id": "question_3_2_1",
+                "content": "주변에 비슷한 취향의 지인이 있다면, 지금 주로 쓰는 그 오디오 서비스를 얼마나 추천해보시겠어요? 0점은 절대 추천 안 함, 10점은 적극 추천입니다. 숫자와 이유를 함께 말씀해 주세요.",
+                "question_type": "open_text",
+                "options": null,
+                "rating_min": null,
+                "rating_max": null,
+                "probing_guide": null,
+                "probing_plan": {
+                  "root_note": "",
+                  "root_checklist": [],
+                  "branches": [
+                    {
+                      "id": "fe84aad3-5b4f-4954-8236-0ec6969d4a42",
+                      "if": "8~10점인 경우",
+                      "note": "",
+                      "position": 0,
+                      "checklist": [
+                        {
+                          "id": "4f392ba1-ebb7-4fcc-a02d-e84dfbf967df",
+                          "text": "강하게 추천하고 싶게 만든 요소는 무엇인지",
+                          "position": 0
+                        },
+                        {
+                          "id": "ee4eab92-3a0e-4a03-b75c-764a5dc9281b",
+                          "text": "실제로 추천해 본 경험이 있는지",
+                          "position": 1
+                        }
+                      ],
+                      "branches": []
+                    },
+                    {
+                      "id": "50627c74-31f3-43f4-89a6-a0f3868c8cff",
+                      "if": "4~7점인 경우",
+                      "note": "",
+                      "position": 1,
+                      "checklist": [
+                        {
+                          "id": "26976cf2-b7ad-4e6c-8f14-b74a524bdefb",
+                          "text": "10점이 아닌 이유는 무엇인지",
+                          "position": 0
+                        },
+                        {
+                          "id": "b2afea3a-655a-49b8-9f4b-1394472afaab",
+                          "text": "그럼에도 쓰는 이유는 무엇인지",
+                          "position": 1
+                        }
+                      ],
+                      "branches": []
+                    },
+                    {
+                      "id": "14a8a15f-3d6e-4c3d-bc56-a2c16629a720",
+                      "if": "0~3점인 경우",
+                      "note": "",
+                      "position": 2,
+                      "checklist": [
+                        {
+                          "id": "c6a8dac5-8c34-4ff6-908a-a11a7c5aa12d",
+                          "text": "가장 낮게 준 이유",
+                          "position": 0
+                        },
+                        {
+                          "id": "fb2c5cca-dfd6-4e58-8857-eb36cdb10eb0",
+                          "text": "그럼에도 아직 쓰는 이유 또는 이탈 계획",
+                          "position": 1
+                        }
+                      ],
+                      "branches": []
+                    }
+                  ]
+                },
+                "response_type": "episode",
+                "duration_sec": 30,
+                "media": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "7f0870e9-4ca4-43e0-add6-9e7ea38ecc01",
+        "readable_id": "chapter_4",
+        "title": "불만·경쟁·대안",
+        "topics": [
+          {
+            "id": "440bc21e-00ce-4982-90a8-b6b61e197fdb",
+            "readable_id": "topic_4_1",
+            "title": "마찰·전환",
+            "questions": [
+              {
+                "id": "c2f4691a-f67d-4381-9981-fc840f9fe953",
+                "readable_id": "question_4_1_1",
+                "content": "오디오 앱을 쓰면서 불편했거나 불만이었던 경험이 있다면 한 가지 사례만 구체적으로 말씀해 주세요. 사소한 것도 괜찮습니다.",
+                "question_type": "open_text",
+                "options": null,
+                "rating_min": null,
+                "rating_max": null,
+                "probing_guide": null,
+                "probing_plan": {
+                  "root_note": "",
+                  "root_checklist": [],
+                  "branches": [
+                    {
+                      "id": "0afc82db-8141-4e38-ac72-451a45601c8e",
+                      "if": "불만 경험이 있다면",
+                      "note": "",
+                      "position": 0,
+                      "checklist": [
+                        {
+                          "id": "ddd271ef-2dcf-47d3-b4ee-4c386113c296",
+                          "text": "첫 징후와 악화된 조건(상황)",
+                          "position": 0
+                        },
+                        {
+                          "id": "b4210562-b8fd-44f7-8af0-68d06b3b456a",
+                          "text": "그때의 감정 강도(미미함~이탈 고려)",
+                          "position": 1
+                        },
+                        {
+                          "id": "eda9b2c3-9867-44ee-96de-da91f27ece51",
+                          "text": "대응(문의, 설정, 앱 전환 등)을 했는지",
+                          "position": 2
+                        }
+                      ],
+                      "branches": []
+                    }
+                  ]
+                },
+                "response_type": "episode",
+                "duration_sec": 30,
+                "media": []
+              },
+              {
+                "id": "2bdc3851-1230-4779-a1c0-55aebadfbe14",
+                "readable_id": "question_4_1_2",
+                "content": "그 오디오 대신 다른 앱·영상·텍스트를 쓴 경험이 최근에 있었다면, 그때는 왜 대체했나요?",
+                "question_type": "open_text",
+                "options": null,
+                "rating_min": null,
+                "rating_max": null,
+                "probing_guide": null,
+                "probing_plan": {
+                  "root_note": "",
+                  "root_checklist": [
+                    {
+                      "id": "5d5651c9-36fe-4213-8ea0-1c2d26d8a703",
+                      "text": "대체재와 비교했을 때 오디오의 장단점",
+                      "position": 0
+                    }
+                  ],
+                  "branches": []
+                },
+                "response_type": "episode",
+                "duration_sec": 30,
+                "media": []
+              }
+            ]
+          },
+          {
+            "id": "01d449b0-e9a6-43bf-86a2-0a730fa074d1",
+            "readable_id": "topic_4_2",
+            "title": "경쟁·병행",
+            "questions": [
+              {
+                "id": "8e0ce4af-9534-4e36-bf44-33520f5c7200",
+                "readable_id": "question_4_2_1",
+                "content": "비슷한 용도로 다른 앱을 동시에 쓰거나, 과거에 다른 앱으로 옮겼던 경험이 있나요?",
+                "question_type": "open_text",
+                "options": null,
+                "rating_min": null,
+                "rating_max": null,
+                "probing_guide": null,
+                "probing_plan": {
+                  "root_note": "",
+                  "root_checklist": [],
+                  "branches": [
+                    {
+                      "id": "b0e2d917-ac8f-47fa-aa0e-05d55f31a6d4",
+                      "if": "병행·전환 경험이 있다면",
+                      "note": "",
+                      "position": 0,
+                      "checklist": [
+                        {
+                          "id": "082b2fe5-48f0-46f7-9c98-dc69cf0c173f",
+                          "text": "어떤 앱을 왜 병행했는지/왜 옮겼는지",
+                          "position": 0
+                        },
+                        {
+                          "id": "c33a1227-8822-4279-9e68-acb54ae8a513",
+                          "text": "콘텐츠·UX·가격·독점 중 무엇이 결정에 가장 컸는지",
+                          "position": 1
+                        }
+                      ],
+                      "branches": []
+                    }
+                  ]
+                },
+                "response_type": "episode",
+                "duration_sec": 30,
+                "media": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "6ed3e8ce-aeb4-4a2e-8c5d-98f212ea6596",
+        "readable_id": "chapter_5",
+        "title": "클로징",
+        "topics": [
+          {
+            "id": "34961316-b9ee-4935-a319-a911263af410",
+            "readable_id": "topic_5_1",
+            "title": "클로징",
+            "questions": [
+              {
+                "id": "335cb08e-7131-4bcf-82f1-51299b5c1f06",
+                "readable_id": "question_5_1_1",
+                "content": "저와 함께 대화 하시느라 고생 많으셨습니다 :) 오늘 나눈 내용 중에서 더 하고 싶은 말씀이 있으시면 짧게 부탁드립니다. 없으시면 '없습니다'라고 말씀해 주셔도 됩니다.",
+                "question_type": "open_text",
+                "options": null,
+                "rating_min": null,
+                "rating_max": null,
+                "probing_guide": null,
+                "probing_plan": null,
+                "response_type": "episode",
+                "duration_sec": 30,
+                "media": []
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "interview_closing": {
+      "closing_message": "오늘 인터뷰 참여해주셔서 감사합니다. 사례비 지급을 위해 담당자가 1~2일 이내로 연락 드릴 예정입니다. 감사합니다"
+    }
+  }
+}

@@ -1,0 +1,363 @@
+{
+  "survey_draft": {
+    "title": "한국인 기준 가격 정보 탐색·활용 인터뷰",
+    "description": "리서치 MUST(첨부 가이드) 반영. 한국 시술·진료를 고려하는 맥락에서 한국인 대상 가격 정보를 찾는 동기, 트리거, 채널, 타이밍, 신뢰, 활용·의사결정 반영 수준을 탐색.",
+    "welcome_title": "안녕하세요, 인터뷰에 참여해 주셔서 감사합니다",
+    "welcome_message": "오늘은 한국에서의 시술·진료를 알아보시면서 가격 정보를 어떻게 찾고 쓰셨는지 이야기를 나눕니다.",
+    "goal": "한국인 기준 가격 정보 탐색 동기·채널·신뢰·의사결정 반영 파악",
+    "target_audience": "한국 방문·한국 시술·진료를 검토하며 한국인 대상 가격 정보를 찾아본 경험이 있는 참가자",
+    "quota": 10,
+    "user_groups": [],
+    "user_inputs": [
+      {
+        "id": "b376c962-a051-4ab9-8f03-f403732e0332",
+        "readable_id": "user_input_1",
+        "label": "이름 또는 닉네임을 적어 주세요"
+      }
+    ],
+    "screener_questions": [],
+    "interview_opening": "안녕하세요, 반갑습니다. 정해진 정답이 있는 질문이 아니라 본인 경험과 생각을 편하게 말씀해 주시면 됩니다. 준비되시면 시작할게요.",
+    "interview_chapters": [
+      {
+        "id": "4aaf5d5a-c20a-47de-a47f-686540845b4d",
+        "readable_id": "chapter_1",
+        "title": "동기 & 필요를 느낀 순간",
+        "topics": [
+          {
+            "id": "9594d41c-089f-40f2-9d79-e5981a31b5ff",
+            "readable_id": "topic_1",
+            "title": "탐색 동기",
+            "questions": [
+              {
+                "id": "f37d697f-3323-440c-8e1d-a4b02d1611fc",
+                "readable_id": "question_1",
+                "content": "한국에서 받을 시술이나 진료에 대해 ‘한국인에게 안내되는 가격’ 정보를 찾아보게 된 이유가 무엇인가요? 외국인에게만 비싸게 받는지 궁금했던 점, 우리나라보다 저렴하게 받고 싶다는 기대 등, 떠오르는 대로 말씀해 주세요.",
+                "question_type": "open_text",
+                "options": null,
+                "rating_min": null,
+                "rating_max": null,
+                "probing_guide": null,
+                "probing_plan": {
+                  "root_note": "",
+                  "root_checklist": [
+                    {
+                      "id": "ad56d425-c752-4b01-bda7-3c84d22e81c1",
+                      "text": "‘한국인 가격’을 기준으로 삼아야 한다고 느낀 계기가 있었는지 확인",
+                      "position": 0
+                    },
+                    {
+                      "id": "da6bfbd3-c14d-4ffe-8608-56c9f3858a8c",
+                      "text": "가격 말고 다른 정보(후기·안전성 등)와 어떻게 함께 고려했는지 확인",
+                      "position": 1
+                    }
+                  ],
+                  "branches": [
+                    {
+                      "id": "0c0d8f32-3a89-44ce-8d12-e90181608e91",
+                      "if": "외국인만 비싸게 받는다는 이야기를 접한 적이 있다고 하신 경우,",
+                      "note": "",
+                      "position": 0,
+                      "checklist": [
+                        {
+                          "id": "9d0ebfd5-470d-410c-b1a9-56f919a387ef",
+                          "text": "어떤 채널·표현에서 그 인상을 받았는지 확인",
+                          "position": 0
+                        },
+                        {
+                          "id": "a46a3181-b198-4a16-bf5e-0668fc2902b2",
+                          "text": "그게 가격 정보 탐색으로 이어졌는지 확인",
+                          "position": 1
+                        }
+                      ],
+                      "branches": []
+                    }
+                  ]
+                },
+                "response_type": "episode",
+                "duration_sec": 50,
+                "media": []
+              },
+              {
+                "id": "09a67f99-37c1-423f-a0c0-f4df2c0db9f7",
+                "readable_id": "question_2",
+                "content": "‘한국인 기준 가격 정보가 필요하다’고 판단하신 건 언제였고, 그때 상황을 어떻게 기억하시나요? 예를 들어 한국 시술을 검색하다 외국인에게만 바가지 씌운다는 후기를 여러 개 보고, 당하지 않으려면 찾아봐야겠다고 생각한 경험처럼 구체적으로 말씀해 주세요.",
+                "question_type": "open_text",
+                "options": null,
+                "rating_min": null,
+                "rating_max": null,
+                "probing_guide": null,
+                "probing_plan": {
+                  "root_note": "",
+                  "root_checklist": [
+                    {
+                      "id": "eda95f86-e008-4236-a6c1-a52552252e42",
+                      "text": "그 순간 이전에는 가격 정보를 크게 찾지 않았다면, 무엇이 전환점이었는지 확인",
+                      "position": 0
+                    }
+                  ],
+                  "branches": [
+                    {
+                      "id": "2821e4dd-ac6e-4638-9b03-ad432b778044",
+                      "if": "검색·SNS·후기를 보다가 결심이 섰다고 하신 경우,",
+                      "note": "",
+                      "position": 0,
+                      "checklist": [
+                        {
+                          "id": "3b78bb1c-241e-4dbf-8f2f-fd04d1d0ef2c",
+                          "text": "어떤 키워드·게시물이 결정에 영향을 주었는지 확인",
+                          "position": 0
+                        }
+                      ],
+                      "branches": []
+                    }
+                  ]
+                },
+                "response_type": "episode",
+                "duration_sec": 55,
+                "media": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "d2b2a90e-c9f2-4edb-aec6-e7d8b8e766c4",
+        "readable_id": "chapter_2",
+        "title": "채널·방법 & 타이밍",
+        "topics": [
+          {
+            "id": "5c52b2fc-584e-4ad2-a9de-0dc2085a1ce2",
+            "readable_id": "topic_1",
+            "title": "어디서·언제 찾는지",
+            "questions": [
+              {
+                "id": "c04e511b-017b-4197-9f73-34a8b7187f94",
+                "readable_id": "question_3",
+                "content": "한국인 대상 가격 정보는 주로 어떤 채널에서, 어떤 방식으로 찾으시나요? 한국에 다녀온 지인에게 물어보기, 병원 카카오톡에 연락해 문의하기, GPT 등 생성형 AI에 물어보기 등 실제로 하신 방법을 예시처럼 편하게 나열해 주세요.",
+                "question_type": "open_text",
+                "options": null,
+                "rating_min": null,
+                "rating_max": null,
+                "probing_guide": null,
+                "probing_plan": {
+                  "root_note": "",
+                  "root_checklist": [
+                    {
+                      "id": "78b6203f-4c9f-44b0-9d87-a0c2f3ba58c1",
+                      "text": "채널마다 얻는 정보의 질·느낌이 어떻게 다른지 확인",
+                      "position": 0
+                    },
+                    {
+                      "id": "4f9dfeca-d8d5-4fea-8554-c2d5f547b6e5",
+                      "text": "한국어를 쓰거나 정체를 숨겨야 했다면 그 이유와 과정 확인",
+                      "position": 1
+                    }
+                  ],
+                  "branches": [
+                    {
+                      "id": "7f2f6394-e47c-418a-82e1-92db5a543838",
+                      "if": "지인·커뮤니티 위주라고 하신 경우,",
+                      "note": "",
+                      "position": 0,
+                      "checklist": [
+                        {
+                          "id": "f0ab35cf-3363-4b5e-8f5c-1cf75b06c23b",
+                          "text": "정보가 부족할 때 다음으로 시도한 방법 확인",
+                          "position": 0
+                        }
+                      ],
+                      "branches": []
+                    },
+                    {
+                      "id": "962f35e1-30ce-4ced-b5af-94a07a7d74ee",
+                      "if": "병원·상담 채널에 직접 물어본 경험이 있다고 하신 경우,",
+                      "note": "",
+                      "position": 1,
+                      "checklist": [
+                        {
+                          "id": "df887590-27f4-46c1-937f-9f1d30815e24",
+                          "text": "어떤 질문을 어떻게 꺼냈는지 확인",
+                          "position": 0
+                        }
+                      ],
+                      "branches": []
+                    },
+                    {
+                      "id": "53f43e72-7638-45fe-8785-4f353c973975",
+                      "if": "GPT나 다른 AI에 물어본 경험이 있다고 하신 경우,",
+                      "note": "",
+                      "position": 2,
+                      "checklist": [
+                        {
+                          "id": "07af5da0-6d46-490d-b03f-4a445a6d4b65",
+                          "text": "답을 어떻게 검증했는지 확인",
+                          "position": 0
+                        }
+                      ],
+                      "branches": []
+                    }
+                  ]
+                },
+                "response_type": "episode",
+                "duration_sec": 60,
+                "media": []
+              },
+              {
+                "id": "96edc64b-090c-4a68-9788-94d1ca2f6f7b",
+                "readable_id": "question_4",
+                "content": "한국인 가격 정보는 보통 여정 중 언제 찾으시나요? 처음 한국 시술을 떠올렸을 때인지, 병원 리스트를 좁힌 뒤인지, 예약 직전인지 등 시점을 떠올려 말씀해 주세요.",
+                "question_type": "open_text",
+                "options": null,
+                "rating_min": null,
+                "rating_max": null,
+                "probing_guide": null,
+                "probing_plan": {
+                  "root_note": "",
+                  "root_checklist": [
+                    {
+                      "id": "13f0976b-545d-43f5-be21-dfad911b8d3b",
+                      "text": "같은 시술이라도 시점에 따라 찾는 깊이가 달라졌는지 확인",
+                      "position": 0
+                    }
+                  ],
+                  "branches": []
+                },
+                "response_type": "episode",
+                "duration_sec": 40,
+                "media": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "a8b55b82-0df8-402e-a973-6c5ac3112cda",
+        "readable_id": "chapter_3",
+        "title": "신뢰·활용·의사결정",
+        "topics": [
+          {
+            "id": "b548e8f0-9029-46e2-9aaf-435fe4c0e6e6",
+            "readable_id": "topic_1",
+            "title": "신뢰와 쓰임",
+            "questions": [
+              {
+                "id": "0c58c85b-8d30-4348-a28e-0dd530c49666",
+                "readable_id": "question_5",
+                "content": "그렇게 찾은 한국인 기준 가격 정보를 어느 정도 신뢰하시나요? 믿는 근거와, 의심이 남는 부분이 있다면 무엇인지 말씀해 주세요.",
+                "question_type": "open_text",
+                "options": null,
+                "rating_min": null,
+                "rating_max": null,
+                "probing_guide": null,
+                "probing_plan": {
+                  "root_note": "",
+                  "root_checklist": [
+                    {
+                      "id": "9e9eab42-8a1c-4dac-8510-77e25080715e",
+                      "text": "여러 출처 정보가 엇갈릴 때 어떻게 조정했는지 확인",
+                      "position": 0
+                    }
+                  ],
+                  "branches": [
+                    {
+                      "id": "028fa4cd-676f-4519-be89-21fedc643002",
+                      "if": "대체로 신뢰한다고 하신 경우,",
+                      "note": "",
+                      "position": 0,
+                      "checklist": [
+                        {
+                          "id": "d24a4d86-d206-4fd4-85a8-25ba083c10ce",
+                          "text": "신뢰를 깨뜨린 경험이 있었는지 확인",
+                          "position": 0
+                        }
+                      ],
+                      "branches": []
+                    },
+                    {
+                      "id": "511391bb-c1bc-4249-ba75-48031b0b68e8",
+                      "if": "반신반의하거나 잘 믿지 않는다고 하신 경우,",
+                      "note": "",
+                      "position": 1,
+                      "checklist": [
+                        {
+                          "id": "174a6731-33fe-4578-9b93-a02c7fca02e2",
+                          "text": "그럼에도 참고한 이유가 있는지 확인",
+                          "position": 0
+                        }
+                      ],
+                      "branches": []
+                    }
+                  ]
+                },
+                "response_type": "episode",
+                "duration_sec": 45,
+                "media": []
+              },
+              {
+                "id": "a9b282de-f85b-4b66-a3b3-60fc8a472ba0",
+                "readable_id": "question_6",
+                "content": "찾은 한국인 가격 정보를 실제로 어떻게 활용하셨나요? 병원·시술 옵션을 고를 때, 그 정보를 의사결정에 어느 정도 반영하셨는지도 함께 말씀해 주세요. 예를 들어 한국인 가격 범위와 비교해 일정 비율 이상 차이 나는 선택지는 아예 제외하신 것처럼, 본인만의 기준이 있다면 구체적으로 알려 주세요.",
+                "question_type": "open_text",
+                "options": null,
+                "rating_min": null,
+                "rating_max": null,
+                "probing_guide": null,
+                "probing_plan": {
+                  "root_note": "",
+                  "root_checklist": [
+                    {
+                      "id": "f4a86e9f-6ffb-422b-857c-67bcc72011df",
+                      "text": "가격 외 요소(일정·후기·접근성)와 트레이드오프를 어떻게 두었는지 확인",
+                      "position": 0
+                    },
+                    {
+                      "id": "672a922a-9cc8-4fff-958e-7554151bd7af",
+                      "text": "한국인 가격 대비 몇 퍼센트·몇 만 원 차이면 제외한다 등 숫자 기준이 있었다면 확인",
+                      "position": 1
+                    }
+                  ],
+                  "branches": [
+                    {
+                      "id": "690fd42b-60a9-49f5-92d1-096fe9faef8b",
+                      "if": "가격 정보가 최종 선택을 바꾼 사례가 있다고 하신 경우,",
+                      "note": "",
+                      "position": 0,
+                      "checklist": [
+                        {
+                          "id": "b553e557-12d0-47aa-b718-5357d07b1a6d",
+                          "text": "어떤 대안에서 어떤 대안으로 바뀌었는지 확인",
+                          "position": 0
+                        }
+                      ],
+                      "branches": []
+                    },
+                    {
+                      "id": "79e51d69-d70f-4afd-8605-9a2bafda33e1",
+                      "if": "가격 정보를 찾았지만 결정에는 거의 쓰지 않았다고 하신 경우,",
+                      "note": "",
+                      "position": 1,
+                      "checklist": [
+                        {
+                          "id": "714c28c9-33ac-4d8e-8f05-72aa6ac07965",
+                          "text": "그럼에도 찾은 이유가 무엇이었는지 확인",
+                          "position": 0
+                        }
+                      ],
+                      "branches": []
+                    }
+                  ]
+                },
+                "response_type": "episode",
+                "duration_sec": 55,
+                "media": []
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "interview_closing": {
+      "closing_message": "오늘 소중한 시간 내어 주셔서 감사합니다. 추가로 하실 말씀이 있으시면 편하게 말씀해 주시고, 없으시면 '없습니다'라고 해 주셔도 됩니다. 감사합니다!"
+    }
+  }
+}
