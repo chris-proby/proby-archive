@@ -22,6 +22,9 @@
 
 ## 작업 규칙
 
+### Git — 기본 푸시 대상 (proby-sync)
+**이 vault(`proby-sync`)에서는 사용자가 다른 원격·저장소를 명시하지 않는 한, 항상 `proby-archive` 저장소(`origin`, `github.com/chris-proby/proby-archive`)로 푸시·동기화한다.** 상세는 `.cursor/rules/proby-archive-push.mdc`를 따른다.
+
 ### 에이전트 초기화 시 필수 작업
 **모든 에이전트는 최초 생성 시 `proby-sync` 안에 있는 모든 파일들을 학습합니다.**
 

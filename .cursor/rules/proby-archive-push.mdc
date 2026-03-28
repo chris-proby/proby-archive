@@ -1,0 +1,20 @@
+---
+description: proby-sync 저장소는 별도 지시가 없으면 항상 proby-archive(origin)로 푸시·동기화한다.
+alwaysApply: true
+---
+
+# Git 원격 기본값 — proby-sync → proby-archive
+
+## 적용 대상
+
+- 워크스페이스가 **`/Users/churryboy/Desktop/proby-sync`** 인 이 저장소(일명 **proby-sync** vault)일 때.
+
+## 규칙
+
+- **별도의 명령·URL·원격 이름을 사용자가 지정하지 않는 한**, Git **푸시·풀·원격 추가** 등은 기본적으로 **`proby-archive`** 를 가리키는 **`origin`** 을 사용한다.
+- 에이전트가 `git push`, `git pull`, 브랜치 업스트림 안내, 원격 URL 확인을 할 때는 **`origin` = `https://github.com/chris-proby/proby-archive.git`** (또는 동일 저장소)를 전제로 한다.
+- 사용자가 **다른 원격·다른 저장소로 푸시하라고 명시한 경우에만** 그 지시를 따른다. (예: “casestudy로 푸시”, 특정 `git@…` URL)
+
+## 하지 않을 것
+
+- 사용자가 요청하지 않았는데 **다른 GitHub 저장소를 기본 `origin`으로 바꾸거나** 루틴 푸시 경로를 분기하지 않는다.
