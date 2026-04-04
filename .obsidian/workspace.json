@@ -1,0 +1,248 @@
+{
+  "main": {
+    "id": "746c95cf5669c8e0",
+    "type": "split",
+    "children": [
+      {
+        "id": "d61475016701fb40",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2f8549d36305b937",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "01. Finished projects (read only)/sk/26.03 - 인재원 FLP 평가/분석 결과/강규태_요약보고서_2p.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "강규태_요약보고서_2p"
+            }
+          },
+          {
+            "id": "79773cb6e707438d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Untitled"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3f1f3a00b1a78787",
+    "type": "split",
+    "children": [
+      {
+        "id": "465e52c7f82b8b1d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5333538c530287db",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "426dbd390e3e1523",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "31421254604e1aa6",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 342.5
+  },
+  "right": {
+    "id": "69ac9669e6ed8792",
+    "type": "split",
+    "children": [
+      {
+        "id": "e5b333e079cb7c44",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "28467fa1ec5b119c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "2026-02-06.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 2026-02-06"
+            }
+          },
+          {
+            "id": "199fbf7865d32d55",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "2026-02-06.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 2026-02-06"
+            }
+          },
+          {
+            "id": "db2817781ea136f3",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "e2fd6059a6a30b6e",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "751790e335a469e0",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "2026-02-06.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 2026-02-06"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "79773cb6e707438d",
+  "lastOpenFiles": [
+    "01. Finished projects (read only)/spoon/2026-04. 비글루 AI 조사/영상 파일/백주연.mp4",
+    "01. Finished projects (read only)/sk/26.03 - 인재원 FLP 평가/분석 결과/강규태_요약보고서_2p.pdf",
+    "Untitled.md",
+    "00. company_docs/invoices/강남언니_견적서.md",
+    "01. Finished projects (read only)/lg-uplus/26.04 - 아이폰 네트워크 이슈 이해 (POC 1)/녹취록/이OO(소영)_전사록.docx",
+    "01. Finished projects (read only)/lg-uplus/26.04 - 아이폰 네트워크 이슈 이해 (POC 1)/녹취록/이OO(서원)_전사록.docx",
+    "01. Finished projects (read only)/lg-uplus/26.04 - 아이폰 네트워크 이슈 이해 (POC 1)/녹취록/박OO_전사록.docx",
+    "01. Finished projects (read only)/lg-uplus/26.04 - 아이폰 네트워크 이슈 이해 (POC 1)/녹취록/전OO_전사록.docx",
+    "01. Finished projects (read only)/lg-uplus/26.04 - 아이폰 네트워크 이슈 이해 (POC 1)/녹취록/김OO_전사록.docx",
+    "01. Finished projects (read only)/lg-uplus/26.04 - 아이폰 네트워크 이슈 이해 (POC 1)/녹취록",
+    "01. Finished projects (read only)/sk/26.03 - 인재원 FLP 평가/분석 결과/최창순_요약보고서_2p.pdf",
+    "01. Finished projects (read only)/sk/26.03 - 인재원 FLP 평가/분석 결과/최지인_요약보고서_2p.pdf",
+    "01. Finished projects (read only)/sk/26.03 - 인재원 FLP 평가/분석 결과/최중원_요약보고서_2p.pdf",
+    "02. services/website/assets/logo/musinsa.png",
+    "02. services/website/assets/logo/image.png",
+    "02. services/website/assets/logo/ridi.jpg",
+    "02. services/website/assets/logo/sk.png",
+    "02. services/website/assets/logo/lgu.jpg",
+    "02. services/proby-admin/node_modules/proper-lockfile/node_modules/signal-exit/README.md",
+    "02. services/proby-admin/node_modules/proper-lockfile/README.md",
+    "02. services/proby-admin/node_modules/proper-lockfile/CHANGELOG.md",
+    "02. services/proby-admin/node_modules/tus-js-client/node_modules/is-stream/readme.md",
+    "02. services/proby-admin/node_modules/tus-js-client/README.md",
+    "02. services/proby-admin/node_modules/querystringify/README.md",
+    "02. services/proby-admin/node_modules/requires-port/README.md",
+    "02. services/proby-admin/node_modules/retry/README.md",
+    "02. services/proby-admin/node_modules/retry/equation.gif",
+    "02. services/proby-admin/node_modules/lodash._basetostring/README.md",
+    "02. services/proby-admin/node_modules/lodash._root/README.md",
+    "02. services/proby-admin/node_modules/lodash._createset/README.md",
+    "02. services/proby-admin/node_modules/lodash._baseuniq/README.md",
+    "02. services/proby-admin/node_modules/lodash._stringtopath/README.md",
+    "02. services/proby-admin/node_modules/lodash._baseiteratee/README.md",
+    "02. services/proby-admin/node_modules/lodash.uniqby/README.md",
+    "02. services/proby-admin/node_modules/url-parse/README.md",
+    "02. services/proby-admin/node_modules/custom-error-instance/README.md",
+    "02. services/proby-admin/node_modules/lodash.throttle/README.md",
+    "02. services/proby-admin/node_modules/js-base64/README.md",
+    "02. services/proby-admin/node_modules/js-base64/LICENSE.md",
+    "02. services/proby-admin/node_modules/combine-errors/Readme.md",
+    "02. services/proby-admin/node_modules/combine-errors/History.md",
+    "02. services/proby-admin/node_modules/buffer-from/readme.md",
+    "01. Finished projects (read only)/나이스디앤알/analysis/output/figures/18_cosine_similarity_heatmap.png",
+    "01. Finished projects (read only)/나이스디앤알/analysis/output/figures/17_correspondence_analysis.png",
+    "01. Finished projects (read only)/나이스디앤알/analysis/output/figures/16_interview_complexity.png",
+    "01. Finished projects (read only)/나이스디앤알/analysis/output/figures/15_wordclouds.png"
+  ]
+}

@@ -1,0 +1,28 @@
+# 환경 변수 / 시크릿
+.env
+.env.*
+*.env
+
+# Google OAuth 토큰 & 클라이언트 시크릿
+Skills/설문 연동/token_forms.json
+Skills/설문 연동/token_forms_read.json
+Skills/설문 연동/client_secret_*.json
+Skills/이메일 스크랩/token.json
+Skills/이메일 스크랩/credentials.json
+Skills/이메일 스크랩/client_secret_*.json
+
+# macOS
+.DS_Store
+
+# Skill / script dependencies (do not commit)
+Skills/**/node_modules/
+**/node_modules/
+node_modules/
+
+# Large binary / media files (use external storage)
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.wmv
+영상 파일/

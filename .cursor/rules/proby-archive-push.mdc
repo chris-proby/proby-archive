@@ -18,3 +18,7 @@ alwaysApply: true
 ## 하지 않을 것
 
 - 사용자가 요청하지 않았는데 **다른 GitHub 저장소를 기본 `origin`으로 바꾸거나** 루틴 푸시 경로를 분기하지 않는다.
+
+## 자동 동기화 (1시간 간격)
+
+- vault를 **주기적으로 proby-archive에 커밋·푸시**하는 정책·launchd/cron 설정은 **`.cursor/rules/proby-archive-hourly-sync.mdc`** 를 따른다.

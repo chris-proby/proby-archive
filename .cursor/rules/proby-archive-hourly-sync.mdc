@@ -1,0 +1,38 @@
+---
+description: proby-sync vault를 1시간마다 proby-archive(origin main)에 커밋·푸시하는 자동 동기화 정책. launchd/cron·스크립트 점검 시 적용.
+alwaysApply: true
+---
+
+# proby-sync → proby-archive 자동 커밋·푸시 (1시간 간격)
+
+## 정책
+
+- 워크스페이스 **`/Users/churryboy/Desktop/proby-sync`** (proby-sync vault)는 **최대 1시간마다** GitHub **`proby-archive`** 저장소의 **`main`** 브랜치와 맞춘다.
+- **기본 원격:** `origin` → `https://github.com/chris-proby/proby-archive.git` (수동·자동 동일).
+- **의미:** 로컬 변경이 생기면 주기적으로 **커밋 + `git push origin main`** 으로 원격에 반영한다. (빈 커밋은 만들지 않는 것이 일반적이나, 팀이 “무조건 1시간마다 시도”로 정했으면 그에 따른다.)
+
+## 구현 (중요)
+
+- **Cursor 채팅·에이전트는 1시간마다 스스로 실행되지 않는다.** 실제 주기 실행은 **macOS `launchd`(LaunchAgent 권장)** 또는 **`cron`** 으로 구성한다.
+- **이 저장소의 구현 위치:** `Skills/proby-archive-sync/` — `sync_to_archive.sh`, `com.proby.proby-sync-archive.plist`, `README.md`(설치·로그·중지 방법). 실행 파일은 **`~/Library/Application Support/com.proby.proby-sync-archive/`** 에 두는 것을 전제로 한다 (Desktop 경로 TCC 회피).
+- 사용자가 **자동 백업·스케줄·launchd·cron·1시간마다 푸시** 설정을 요청하면, 이 정책에 맞게 **쉘 스크립트·LaunchAgent plist·간격 표현**을 제안·수정한다.
+
+## 에이전트가 스크립트를 짤 때 포함할 내용 (권장)
+
+1. `cd` 를 proby-sync 루트로 고정한다.
+2. `git status` 로 변경이 있으면 `git add -A` (또는 팀이 정한 경로만) → 커밋 → `git push origin main`.
+3. 원격이 앞선 경우: `git fetch origin && git pull --rebase origin main` 후 푸시, 또는 실패 시 중단·로그.
+4. **`.env`·비밀키**는 `.gitignore`에 있으면 커밋되지 않음을 전제로 한다.
+
+## 커밋 메시지 예시
+
+- `chore: auto sync proby-sync → proby-archive (2026-03-28 14:00)`
+- `auto: vault sync`
+
+## 하지 않을 것
+
+- 자동 작업이 **proby-archive가 아닌 다른 원격**으로 가도록 설계·안내하지 않는다 (사용자가 명시적으로 다른 대상을 요청한 경우 제외).
+
+## 관련 규칙
+
+- 원격 기본값·수동 푸시: `.cursor/rules/proby-archive-push.mdc`

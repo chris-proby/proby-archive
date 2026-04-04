@@ -1,0 +1,22 @@
+---
+description: /견적 슬래시 — invoices 견적서 MD·PDF·Gmail 초안 (chris@proby.io)
+globs:
+alwaysApply: false
+---
+
+# `/견적` 단축어 (invoices + PDF + draft)
+
+- 사용자가 **`/견적`** 으로 시작하거나, **invoices 폴더 양식으로 견적서 만들고 PDF·초안 메일** 을 요청하면 **`.cursor/skills/견적/SKILL.md`** 와 **`Skills/견적 이메일/invoice_quote_to_draft.py`** 를 따른다.
+
+## 수집할 정보
+
+- 수신 기업명(프로젝트명), 담당자명, 수신자 이메일, 크레딧 개수, USD→KRW 환율(필요 시 환율 기준일)
+
+## 실행
+
+- vault 루트에서 `python3 "Skills/견적 이메일/invoice_quote_to_draft.py"` + 필수 인자. 상세는 스킬 파일.
+
+## `%견적` 과 구분
+
+- **`%견적`** → `30. 세일즈팀/견적/` 에 견적 MD만 (workspace 규칙 `quote-shortcut.mdc`).
+- **`/견적`** → `00. company_docs/invoices/` + PDF + Gmail 초안.
